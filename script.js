@@ -84,7 +84,6 @@ btnHold.addEventListener('click', function () {
       document
         .querySelector(`.player--${activePlayer}`)
         .classList.remove('player--active');
-      alert('me debe 100 dolare');
     } else {
       // Switch to the next player
       switchPlayer();
